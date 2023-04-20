@@ -1,0 +1,22 @@
+<h3 class="text-center">List of the Books</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Book Id</th>
+            <th>Name</th>
+            <th>Summary</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let book of books">
+            <td>{{book.bookId}}</td>
+            <td>{{book.name}}</td>
+            <td>{{book.summary}}</td>
+            <td>{{book.rating}}</td>
+            <td>
+                <button (click)="getBookById(book.bookId)">Search Book Using ID</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
