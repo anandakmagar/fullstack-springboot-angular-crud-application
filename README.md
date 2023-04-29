@@ -1,6 +1,6 @@
 FullStack CRUD Application with Spring Boot and Angular
 -------------------------------------------------------
-This is a CRUD Application that mimics the dashboard of Librarians where users can
+This is a CRUD Application that mimics the dashboard for Librarians where users can
 1. Add the book
 2. Delete the book
 3. Update the existing book
