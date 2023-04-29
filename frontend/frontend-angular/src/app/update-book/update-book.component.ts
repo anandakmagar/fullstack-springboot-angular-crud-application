@@ -10,7 +10,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class UpdateBookComponent implements OnInit {
   bookId!: number;
+  name!: string;
+  summary!: string;
+  rating!: number;
+
   book: Book = new Book();
+  
   constructor(private service: BookService,
     private route: ActivatedRoute,
     private router: Router) { }

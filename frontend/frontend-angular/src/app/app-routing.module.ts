@@ -10,7 +10,6 @@ const routes: Routes = [
   {path: 'getById/:bookId', component: BookDetailsComponent},
   {path: 'add', component: CreateBookComponent},
   {path: 'update/:bookId', component: UpdateBookComponent}
-  // {path: 'delete', component: DeleteBookCOmponent}
 ];
 
 @NgModule({
